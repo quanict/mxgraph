@@ -32,6 +32,7 @@ import javax.swing.JLabel;
 import com.mxgraph.util.mxConstants;
 import com.mxgraph.util.mxLightweightLabel;
 import com.mxgraph.util.mxUtils;
+import com.mxgraph.filter.mxHighLightFilter;
 
 /**
  * Used for exporting images. To render to an image from a given XML string,
@@ -1854,4 +1855,23 @@ public class mxGraphicsCanvas2D implements mxICanvas2D
 
 	}
 
+	public void setFilter(String type) {
+		if( type.equals("highlight") ) {
+			if (currentPath != null) {
+			    this.addHightlightFilter();				
+			}	
+		}
+	}
+	
+	protected void addHightlightFilter() {
+		Graphics2D g2 = (Graphics2D) state.g.create();
+	    GeneralPath filterPath = (GeneralPath) currentPath.clone();
+	    Color strokeColor = parseColor("#66ffd9",1);
+	    
+        mxHighLightFilter filter = new mxHighLightFilter(filterPath, strokeColor);
+        filter.draw(g2);
+        
+        g2.dispose();
+		this.fillAndStroke();
+	}
 }

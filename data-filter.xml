@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<output>
+   <fontfamily family="Arial,Helvetica" />
+   <fontsize size="15" />
+   <shadowcolor color="red" />
+   <shadowalpha alpha="1" />
+   <shadowoffset dx="2" dy="3" />
+   <translate dx="-599" dy="-139" />
+   <scale scale="1" />
+   <shadow enabled="1" />
+   <save />
+   <scale scale="1" />
+   	<shadow enabled="0" />
+   	<shadowoffset dx="5" dy="5" />
+   <fillcolor color="#fff" />
+   <strokecolor color="#929292" />
+   <strokewidth width="3" />
+   <translate dx="832.5" dy="295" />
+   <begin />
+	   <move x="0" y="5" />
+	   <line x="0" y="55" />
+	   <quad x1="0" y1="60" x2="5" y2="60" />
+	   <line x="115" y="60" />
+	   <quad x1="120" y1="60" x2="120" y2="55" />
+	   <line x="120" y="5" />
+	   <quad x1="120" y1="0" x2="115" y2="0" />
+	   <line x="5" y="0" />
+	   <quad x1="0" y1="0" x2="0" y2="5" />
+   <close />
+    
+   <fillstroke />
+  <filterblur type="highlight"/>
+   <restore />
+   
+   <save />
+   
+   <scale scale="1" />
+   <shadow enabled="0" />
+   <fillcolor color="#fff" />
+   
+	   <strokecolor color="#929292" />
+	   <fontcolor color="#313232" />
+	   <text x="892.5" y="325" w="116" h="56" str="New item" align="center" valign="middle" wrap="0" format="html" overflow="visible" clip="0" rotation="0" />
+   
+   <restore />
+   <save />
+   
+   <scale scale="1" />
+   <shadow enabled="0" />
+   <fillcolor color="#fff" />
+   <strokecolor color="#929292" />
+   <strokewidth width="3" />
+   <translate dx="657.5" dy="208" />
+   <begin />
+	   <move x="76.27" y="0.65" />
+	   <quad x1="82.32" y1="1.65" x2="87.51" y2="5" />
+	   <quad x1="90.12" y1="6.65" x2="91.47" y2="8.13" />
+	   <line x="95.26" y="8.49" />
+	   <quad x1="99.88" y1="9.1" x2="103.84" y2="10.47" />
+	   <quad x1="116.56" y1="14.78" x2="118.3" y2="24.71" />
+	   <quad x1="120" y1="34.64" x2="110.9" y2="42.45" />
+	   <quad x1="108.02" y1="44.89" x2="104.41" y2="46.83" />
+	   <line x="101.4" y="48.27" />
+	   <quad x1="101.05" y1="49.35" x2="98.87" y2="50.86" />
+	   <quad x1="94.61" y1="53.92" x2="85.76" y2="56.15" />
+	   <quad x1="76.92" y1="58.38" x2="69.69" y2="57.52" />
+	   <quad x1="67.47" y1="57.23" x2="65.6" y2="56.69" />
+	   <line x="64.25" y="56.19" />
+	   <quad x1="61.98" y1="57.19" x2="58.45" y2="58.13" />
+	   <quad x1="51.44" y1="60" x2="45.21" y2="59.6" />
+	   <quad x1="37.5" y1="59.1" x2="31.01" y2="55.36" />
+	   <quad x1="28.97" y1="54.17" x2="27.31" y2="52.81" />
+	   <line x="26.05" y="51.69" />
+	   <quad x1="21.04" y1="51.73" x2="15.42" y2="50.07" />
+	   <quad x1="4.14" y1="46.73" x2="1.05" y2="38.27" />
+	   <quad x1="-2.05" y1="29.78" x2="4.05" y2="22.63" />
+	   <quad x1="7.14" y1="19.06" x2="10.8" y2="17.16" />
+	   <quad x1="10.98" y1="16.62" x2="11.46" y2="15.72" />
+	   <quad x1="12.41" y1="13.92" x2="13.94" y2="12.19" />
+	   <quad x1="18.77" y1="6.62" x2="27.44" y2="3.71" />
+	   <quad x1="36.07" y1="0.76" x2="46.52" y2="1.47" />
+	   <quad x1="51.75" y1="1.83" x2="55.23" y2="2.77" />
+	   <line x="56.58" y="2.12" />
+	   <quad x1="58.41" y1="1.37" x2="60.63" y2="0.86" />
+	   <quad x1="67.73" y1="-0.76" x2="76.27" y2="0.65" />
+   <close />
+   <fillstroke />
+	 <filterblur type="highlight"/>
+   <restore />
+   <save />
+   <scale scale="1" />
+   <shadow enabled="0" />
+   <fillcolor color="#fff" />
+   <strokecolor color="#929292" />
+   <fontcolor color="#313232" />
+   <text x="717.5" y="238" w="116" h="56" str="New item" align="center" valign="middle" wrap="0" format="html" overflow="visible" clip="0" rotation="0" />
+   <restore />
+</output>
+

@@ -454,6 +454,14 @@ public class mxSaxOutputHandler extends DefaultHandler
 				canvas.fillAndStroke();
 			}
 		});
+		
+		handlers.put("filterblur", new IElementHandler()
+		{
+			public void parseElement(Attributes atts)
+			{
+				canvas.setFilter(atts.getValue("type"));
+			}
+		});
 	}
 
 	/**

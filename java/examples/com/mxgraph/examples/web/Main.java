@@ -43,6 +43,7 @@ public class Main
 		context.addServlet(new ServletHolder(new Link()), "/Link");
 		context.addServlet(new ServletHolder(new EmbedImage()), "/EmbedImage");
 		context.addServlet(new ServletHolder(new Backend()), "/Backend");
+		context.addServlet(new ServletHolder(new FilterBlur()), "/FilterBlur");
 
 		HandlerList handlers = new HandlerList();
 		handlers.setHandlers(new Handler[] { new RedirectHandler(),

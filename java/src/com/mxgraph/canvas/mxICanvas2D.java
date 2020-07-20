@@ -364,5 +364,10 @@ public interface mxICanvas2D
 	 * Fills and paints the outline of the current path.
 	 */
 	void fillAndStroke();
+	
+	/**
+	 * set filter custom from xml input
+	 */
+	void setFilter(String type);
 
 }

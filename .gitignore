@@ -3,5 +3,6 @@ javascript/dist
 .jshintrc
 javascript/examples/**/dist
 .idea/
+.project
 /bin/
 *.log
